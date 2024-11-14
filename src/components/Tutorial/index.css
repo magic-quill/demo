@@ -1,0 +1,19 @@
+.tutorial {
+    word-break: break-word;
+
+    .icon {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .gif {
+        width: 100%;
+    }
+
+    .heading {
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.125;
+        text-align: center;
+    }
+}

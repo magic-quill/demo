@@ -1,0 +1,113 @@
+.authors-gallery {
+
+  /* Gallery.css */
+  .gallery-container {
+    padding: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .masonry-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+  .gif-item {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 0.5rem;
+    flex: 0 0 calc(20% - 1rem);
+
+    @media screen and (max-width: 480px) {
+      flex: 0 0 calc(50% - 1rem);
+
+    }
+  }
+
+  .gif-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .gif-preview,
+  .gif-full {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+
+  .gif-full {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .gif-container:hover .gif-preview {
+    opacity: 0;
+  }
+
+  .gif-container:hover .gif-full {
+    opacity: 1;
+  }
+
+  .gif-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+    padding: 16px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .gif-item:hover .gif-overlay {
+    opacity: 1;
+  }
+
+  .gif-overlay h3 {
+    color: white;
+    margin: 0;
+    font-size: 16px;
+  }
+
+  /* For better performance on mobile */
+  @media (active: none) {
+    .gif-full {
+      display: none;
+    }
+
+    .gif-container:active .gif-preview {
+      opacity: 1;
+    }
+  }
+
+  .show-more-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  .show-more-button {
+    background-color: #4a4a4a;
+    color: white;
+    border: none;
+    padding: 0.4rem 1rem;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .show-more-button:hover {
+    background-color: #666666;
+  }
+}
