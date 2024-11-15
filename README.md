@@ -1,8 +1,8 @@
 # MagicQuill: An Intelligent Interactive Image Editing System
 
-This is the repository for the [MagicQuill](https://magic-quill.github.io/demo) website.
+This is the repository for the [MagicQuill](https://magicquill.art/demo) website.
 
-For the source code of the model, please visit this [repo](#)
+For the source code of the model, please visit this [repo](https://github.com/magic-quill/MagicQuill)
 
 # License
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
