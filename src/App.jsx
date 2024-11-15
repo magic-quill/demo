@@ -97,9 +97,9 @@ function App() {
               size="large"
               icon={<FilePdfOutlined />}
               style={{ margin: "0.5rem" }}
-              href="#"
+              href="https://arxiv.org/abs/2411.09703"
             >
-              paper (coming soon)
+              paper
             </Button>
             <Button
               shape="round"
@@ -151,50 +151,50 @@ function App() {
             <a href="https://www.youtube.com/watch?v=5DiKfONMnE4">YouTube</a>
           </div>
         </div>
-        <div className="gray-bg">
-          <div className="content">
-            <h2 className="title">TL;DR</h2>
-            <div
-              className="text"
-              style={{
-                width: "90%",
-                margin: "auto",
-                textAlign: "center",
-                fontWeight: "bold",
-              }}
-            >
-              MagicQuill is an intelligent and interactive system achieving
-              precise image editing. <br />
-              Key Features: 😎 User-friendly interface / 🤖 AI-powered
-              suggestions / 🎨 Precise local editing
-            </div>
-            <h2 className="title">Abstract</h2>
-            <div className="text" style={{ width: "90%", margin: "auto" }}>
-              As a highly practical application, image editing encounters a
-              variety of user demands and thus prioritizes excellent ease of
-              use. In this paper, we unveil MagicQuill, an integrated image
-              editing system designed to support users in swiftly actualizing
-              their creativity. Our system starts with a streamlined yet
-              functionally robust interface, enabling users to articulate their
-              ideas (e.g., inserting elements, erasing objects, altering color,
-              etc.) with just a few strokes. These interactions are then
-              monitored by a multimodal large language model (MLLM) to
-              anticipate user intentions in real time, bypassing the need for
-              prompt entry. Finally, we apply the powerful diffusion prior,
-              enhanced by a carefully learned two-branch plug-in module, to
-              process the editing request with precise control.
-            </div>
-          </div>
-        </div>
-
-        <div className="content">
-          <Gallery />
-        </div>
 
         <div className="gray-bg">
           <div className="content">
             <Authors />
           </div>
+        </div>
+
+        <div className="content">
+          <h2 className="title">TL;DR</h2>
+          <div
+            className="text"
+            style={{
+              width: "90%",
+              margin: "auto",
+              textAlign: "center",
+              fontWeight: "bold",
+            }}
+          >
+            MagicQuill is an intelligent and interactive system achieving
+            precise image editing. <br />
+            Key Features: 😎 User-friendly interface / 🤖 AI-powered suggestions
+            / 🎨 Precise local editing
+          </div>
+          <h2 className="title">Abstract</h2>
+          <div className="text" style={{ width: "90%", margin: "auto" }}>
+            As a highly practical application, image editing encounters a
+            variety of user demands and thus prioritizes excellent ease of use.
+            In this paper, we unveil MagicQuill, an integrated image editing
+            system designed to support users in swiftly actualizing their
+            creativity. Our system starts with a streamlined yet functionally
+            robust interface, enabling users to articulate their ideas (e.g.,
+            inserting elements, erasing objects, altering color, etc.) with just
+            a few strokes. These interactions are then monitored by a multimodal
+            large language model (MLLM) to anticipate user intentions in real
+            time, bypassing the need for prompt entry. Finally, we apply the
+            powerful diffusion prior, enhanced by a carefully learned two-branch
+            plug-in module, to process the editing request with precise control.
+          </div>
+        </div>
+
+        <div className="gray-bg">
+        <div className="content">
+          <Gallery />
+        </div>
         </div>
 
         <div className="content">
@@ -213,7 +213,7 @@ function App() {
             <pre>
               <code style={{ overflow: "scroll" }}>
                 {
-                  "@article{liu2024magicquill, \n\ttitle={MagicQuill: An Intelligent Interactive Image Editing System}, \n\tauthor={Zichen Liu and Yue Yu and Hao Ouyang and Qiuyu Wang and Ka Leong Cheng and Wen Wang and Zhiheng Liu and Qifeng Chen and Yujun Shen}, \n\tyear={2024}, \n\teprint={xxxx.xxxxx}, \n\tarchivePrefix={arXiv}, \n\tprimaryClass={cs.CV}\n}"
+                  "@article{liu2024magicquill, \n\ttitle={MagicQuill: An Intelligent Interactive Image Editing System}, \n\tauthor={Zichen Liu and Yue Yu and Hao Ouyang and Qiuyu Wang and Ka Leong Cheng and Wen Wang and Zhiheng Liu and Qifeng Chen and Yujun Shen}, \n\tyear={2024}, \n\teprint={2411.09703}, \n\tarchivePrefix={arXiv}, \n\tprimaryClass={cs.CV}\n}"
                 }
               </code>
             </pre>

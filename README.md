@@ -14,7 +14,7 @@ Don't forget to cite this source if it proves useful in your research!
 	title={MagicQuill: An Intelligent Interactive Image Editing System}, 
 	author={Zichen Liu and Yue Yu and Hao Ouyang and Qiuyu Wang and Ka Leong Cheng and Wen Wang and Zhiheng Liu and Qifeng Chen and Yujun Shen}, 
 	year={2024}, 
-	eprint={XXXX.XXXXX}, 
+	eprint={2411.09703}, 
 	archivePrefix={arXiv}, 
 	primaryClass={cs.CV}}
 ```

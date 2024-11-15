@@ -62,9 +62,9 @@ const Gallery = () => {
 
   return (
     <div className="content authors-gallery">
-      <h2 className="title">Author Gallery</h2>
+      <h2 className="title">MagicQuill can edit images in the wild!</h2>
       <div className="text" style={{ textAlign: "center" }}>
-        Hover/click on us to use MagicQuill 🤪
+        Hover/click on our authors to use MagicQuill 🤪 We thank all authors for contributing their photos.
       </div>
       <br />
       <div className="masonry-grid">
