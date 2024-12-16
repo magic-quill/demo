@@ -122,11 +122,11 @@ function App() {
             <Button
               shape="round"
               size="large"
-              icon={<AlipayOutlined />}
+              icon="👾"
               style={{ margin: "0.5rem" }}
-              href="http://magic.chenjunfeng.xyz"
+              href="https://modelscope.cn/studios/ant-research/MagicQuill_demo"
             >
-              web demo (Alipay Cloud)
+              ModelScope demo
             </Button>
           </div>
           {/* <div className="nav-bar">
