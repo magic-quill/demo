@@ -31,6 +31,7 @@ function App() {
             <br />
             An Intelligent Interactive Image Editing System
           </h1>
+          <h2 style={{ textAlign: "center" }}>CVPR 2025</h2>
           <div className="authors">
             <div>
               <a href="https://zliucz.github.io/">Zichen Liu</a>
@@ -192,9 +193,9 @@ function App() {
         </div>
 
         <div className="gray-bg">
-        <div className="content">
-          <Gallery />
-        </div>
+          <div className="content">
+            <Gallery />
+          </div>
         </div>
 
         <div className="content">
