@@ -21,6 +21,11 @@ function App() {
   return (
     <>
       <div style={{ margin: "auto" }}>
+        <div className="v2-banner">
+          <a href="https://magicquill.art/v2">
+            🎉 MagicQuill V2 is released! 🎉
+          </a>
+        </div>
         <div className="content">
           <h1 className="title-primary">
             <img
