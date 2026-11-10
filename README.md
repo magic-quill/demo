@@ -1,6 +1,6 @@
 # MagicQuill: An Intelligent Interactive Image Editing System
 
-This is the repository for the [MagicQuill](https://magicquill.art/demo) website.
+This is the repository for the [MagicQuill](https://magic-quill.github.io/demo) website.
 
 For the source code of the model, please visit this [repo](https://github.com/magic-quill/MagicQuill)
 
